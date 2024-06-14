@@ -1,0 +1,233 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 110px;
+  height: 100vh;
+}
+
+.logo-container {
+  margin-bottom: 20px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.logo {
+  width: 79px;
+  height: 80px;
+}
+
+.nav {
+  margin-top: 55px;
+  margin-left: 0px;
+}
+
+.museum-icon {
+  width: 47px;
+  height: 47px;
+  margin-bottom: 30px;
+}
+
+.heart-icon {
+  width: 40px;
+  height: 41px;
+  margin-bottom: 30px;
+}
+
+.calendar-icon {
+  width: 36px;
+  height: 41px;
+  margin-bottom: 30px;
+}
+
+.dollar-icon {
+  width: 43px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.info-icon {
+  width: 46px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.user-icon {
+  width: 40px;
+  height: 41px;
+  margin-bottom: 30px;
+}
+
+.eye-icon {
+  width: 40px;
+  height: 35px;
+  margin-bottom: 60px;
+}
+
+.phone-icon {
+  width: 34px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.search-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 60px;
+}
+
+.bars-icon {
+  width: 44px;
+  height: 36px;
+  margin-bottom: 30px;
+}
+
+
+.content {
+  padding: 20px;
+  margin-left: 95px;
+}
+
+.image-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.image-collage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.collage-image {
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 36px;
+  color: #8b0000;
+}
+
+.lead {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button.mt-3 {
+  background-color: #8b0000;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button.mt-3:last-child {
+  margin-right: 0;
+}
+
+.modal-content {
+  text-align: left;
+}
+
+.modal-header-content {
+  display: flex;
+  align-items: center;
+}
+
+.modal-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal-subtitle {
+  font-size: 16px;
+}
+
+.date-picker {
+  margin-bottom: 20px;
+}
+
+.date-picker .days,
+.date-picker .dates {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-picker .days span,
+.date-picker .dates span {
+  width: 30px;
+  text-align: center;
+}
+
+.date-picker .dates .date-item {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.date-picker .dates .date-item.selected {
+  background-color: #8b0000;
+  color: white;
+}
+
+.date-picker .dates .date-item.disabled {
+  color: #ccc;
+}
+
+.time-picker .time-btn {
+  margin: 5px;
+}
+
+.time-picker .time-btn.selected {
+  background-color: #8b0000;
+  color: white;
+  border-color: #8b0000;
+}
+
+.time-picker .time-btn.disabled {
+  color: #ccc;
+  border-color: #ccc;
+}
+
+.custom-navbar {
+  display: none;
+}
+
+.nav-item {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.nav-link img {
+  display: block;
+  margin: 0 auto;
+}

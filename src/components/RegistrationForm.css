@@ -1,0 +1,52 @@
+.modal-header-content {
+    display: flex;
+    align-items: center;
+}
+
+.modal-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modal-subtitle {
+    font-size: 16px;
+}
+
+.modal-date {
+    font-size: 14px;
+    color: #8b0000;
+}
+
+h5 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button.mt-3 {
+    background-color: #8b0000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button.mt-3:last-child {
+    margin-right: 0;
+}
